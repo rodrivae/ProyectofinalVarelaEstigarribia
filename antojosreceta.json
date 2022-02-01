@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "nombre": "BOCADITOS DE QUESO CREMA, PANCETA Y CIBOULETTE",
+      "desc": "Las mejores comidas para picar rapido y facil.",
+      "subcategoria": "ysipicamosalgo",
+      "img": "https://www.bacanal.com.ar/wp-content/uploads/2017/12/picada-a%C3%B1o-nuevo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "BOCADITOS DE ZUCCHINI",
+      "desc": "Las mejores comidas para picar rapido y facil.",
+      "subcategoria": "ysipicamosalgo",
+      "img": "https://www.bacanal.com.ar/wp-content/uploads/2017/12/picada-a%C3%B1o-nuevo2.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Torta rogel",
+      "desc": "En esta ocasión vamos a preparar Torta Rogel! Uf, ¡una hermosura! Es un clásico, ¿cómo resistirse a sus capitas crocantes de masa generosamente untadas con dulce de leche? No, no, que no se diga más y preparemos esta torta!",
+      "subcategoria": "dulcemania",
+      "img": "https://www.paulinacocina.net/wp-content/uploads/2021/11/torta-rogel.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Bizcocho de limón",
+      "desc": "¿Llegó la hora de la merienda? ¿Te prometieron visita? ¿Te vas al parque a tomar mates? O simplemente tenés antojo de algo dulce? Pues hoy les traigo una receta hermosa para compartirles: Bizcocho de Limón con Yogurt.",
+      "subcategoria": "dulcemania",
+      "img": "https://www.paulinacocina.net/wp-content/uploads/2021/10/Bizcocho-de-limon-con-yogur.jpg",
+      "cantidad": 1
+    }
+
+     ]

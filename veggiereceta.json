@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "nombre": "PASTEL DE VERDURAS AL HORNO CASERO",
+      "desc": "Preparar este pastel de verduras es algo sencillo, con no muchos ingredientes. Y puedes cambiar las verduras según tu gusto o estación del año. Una versión muy rica y fácil de hacer en casa",
+      "subcategoria": "Vegetariano",
+      "img": "https://th.bing.com/th/id/R.473f7d15e686543529d45af189d3f571?rik=65WRE7z1L%2b6m8w&pid=ImgRaw&r=0",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "AROS DE CEBOLLA ",
+      "desc": "Los aros de cebolla crujientes son una de las comidas fritas que más encantan a los más pequeños (y también a muchos de los no tan pequeños, entre los que me incluyo) y que se suele servir en los propios establecimientos de comida rapida.",
+      "subcategoria": "Vegetariano",
+      "img": "https://th.bing.com/th/id/OIP.hSVE9hLXkAR7S6wq6_8GMgHaE7?pid=ImgDet&rs=1",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "FINGERS DE TOFU",
+      "desc": "Esta receta es ideal para quienes todavía no le han encontrado el punto al tofu, uno de los alimentos de origen vegetal más versátiles, y a la vez, más temidos. Preparamos unos crujientes y sabrosos fingers de tofu. ",
+      "subcategoria": "Vegano",
+      "img": "https://imag.bonviveur.com/fingers-de-tofu-emplatados-con-salsa-barbacoa.webp",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "GARBANZOS CON ESPINACAS",
+      "desc": "Garbanzos con espinacas es una de esas recetas completísimas. Especialmente en los días de otoño e invierno, aunque se puede comer durante todo el año",
+      "subcategoria": "Vegano",
+      "img": "https://th.bing.com/th/id/OIP.gBmZqM0mZk7PpInYQVCZQQHaE6?pid=ImgDet&rs=1",
+      "cantidad": 1
+    }
+    
+  ]

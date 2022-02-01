@@ -1,0 +1,150 @@
+[
+    {
+      "id": 1,
+      "nombre": "Bife a la criolla",
+      "desc": "Es un plato principal delicioso, muy completo y nutritivo debido a un excelente contenido de proteínas de alto valor biológico. ¡Clásico de la cocina argentina!",
+      "subcategoria": "Argentina",
+      "img": "img/paises/argentina1.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Bife de chorizo a la parrilla",
+      "desc": "El bife de chorizo es una comida típica de Argentina, reconocida por ser una pieza de carne sin hueso, y sin vetas de grasa interior. Es delicioso cuando queda jugoso y rosado en su interior.",
+      "subcategoria": "Argentina",
+      "img": "img/paises/argentina2.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Chinchulines",
+      "desc": "Es el intestino delgado de la vaca, lo primero que se sirve en un asado pero lo que mas tarde en hacerse;deben ponerse antes que la carne en la parrilla.",
+      "subcategoria": "Argentina",
+      "img": "img/paises/argentina3.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Corderito patagónico agridulce",
+      "desc": "Es una exquisita receta de cordero de la Patagonia, que te permitirá sorprender a tus comensales con este platillo tradicional y muy sabroso, acompañado de una rica polenta con eneldo.",
+      "subcategoria": "Argentina",
+      "img": "img/paises/argentina4.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Milanesa napolitana",
+      "desc": "La milanesa a la napolitana es un plato argentino, proveniente de la ciudad de Buenos Aires. ",
+      "subcategoria": "Argentina",
+      "img": "img/paises/argentina5.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Locro riojano",
+      "desc": "Este plazo es característico del invierno puesto que brinda al comensal de la energía y calor tan necesarios durante los días fríos. Característico de Argentina, este plato también es frecuente cuando se presentan resfriados o para recuperar energía luego de una ardua jornada.",
+      "subcategoria": "Argentina",
+      "img": "img/paises/argentina6.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Pollo a la naranja",
+      "desc": "El pollo a la naranja es una comida típica de Asia. No tiene nada que ver con el pato al horno a la naranja, plato típico francés. En este caso, se trata de unas pechugas de pollo cocinadas junto a una salsa hecha a base de zumo de naranja. Se puede acompañar de un arroz blanco.",
+      "subcategoria": "China",
+      "img": "img/paises/china1.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Arroz tres delicias chino",
+      "desc": "Consiste en un arroz cocido, junto a unas verduras, carne y tortilla (tres delicias) que finalmente se frie en aceite muy caliente.",
+      "subcategoria": "China",
+      "img": "img/paises/china2.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "nombre": "Tallarines chinos con gamba",
+      "desc": " Hoy vamos a volver a preparar nuestra propia comida china en casa. Lo bueno que tiene este tipo de platos, además de estar deliciosos, es que son muy fáciles de hacer y que necesitan de pocos ingredientes, todos a mano de todo el mundo, y que se hacen de una manera rápida.",
+      "subcategoria": "China",
+      "img": "img/paises/china3.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "nombre": "Arroz frito chino con verduras",
+      "desc": "Preparar un delicioso arroz frito chino con verduras, es coser y cantar. Con pocos ingredientes, muy fácil de preparar, listo en cuestión de 20 minutos y muy económico",
+      "subcategoria": "China",
+      "img": "img/paises/china4.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Paella clásica",
+      "desc": "La paella es uno de los platillos favoritos para preparar en las reuniones porque es delicioso y abunda muy bien. Pensando en esto, queremos compartirte esta paella receta clásica para que la prepares en casa, súper fácil y rápida. ¡No esperes más y a cocinar!",
+      "subcategoria": "España",
+      "img": "img/paises/españa1.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 12,
+      "nombre": "Tortilla española",
+      "desc": "Para hacer una buena tortilla de papas, la receta clásica, hay unas pocas reglas sencillas que deben cumplirse para que siempre salga bien. Aquí tienes algunos trucos y consejos para triunfar.",
+      "subcategoria": "España",
+      "img": "img/paises/españa2.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 13,
+      "nombre": "Gazpacho andaluz",
+      "desc": "¿Este gazpacho andaluz con su guarnición es quizás el mayor clásico entre las sopas frías españolas. Hay tantos gazpachos como cocineros pero aquí te dejo la receta tradicional",
+      "subcategoria": "España",
+      "img": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2018/06/01/5e99784964d1d.jpeg",
+      "cantidad": 1
+    },
+    
+    {
+      "id": 14,
+      "nombre": "Pulpo a la gallega",
+      "desc": "Cocinar pulpo a la gallega es muy fácil, pero tiene sus trucos! Aquí les traigo el paso a paso para que sus recetas con pulpo sean las mejores del condado.",
+      "subcategoria": "España",
+      "img": "img/paises/españa4.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 15,
+      "nombre": "Espaguetis al pesto",
+      "desc": "Los espaguetis al pesto, consisten en esta popular pasta, preparada con esta salsa de color verde. La albahaca, es el ingrediente que tornará a nuestros espaguetis de este susodicho color.",
+      "subcategoria": "Italia",
+      "img": "img/paises/italia1.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 16,
+      "nombre": "Espaguetis con salsa Alfredo",
+      "desc": "La salsa Alfredo tiene su origen en 1914 cuando Alfredo Di Lelio comenzó a preparar fettuccini con esta salsa para su esposa. Años después, un matrimonio americano fue luna de miel a Italia y conocieron a Alfredo, el cual des dio a probar su plato estrella.",
+      "subcategoria": "Italia",
+      "img": "img/paises/italia2.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 17,
+      "nombre": "Lasaña de espinaca y calabaza",
+      "desc": "Para denominarse de este nombre, ha de llevar como mínimo cuatro capas de pasta. La lasaña se puede elaborar con carne, con verduras o incluso con pescado. La receta que vamos a preparar en esta ocasión es una lasaña típica de esta época del año, una lasaña de calabaza y espinacas.",
+      "subcategoria": "Italia",
+      "img": "img/paises/italia3.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 18,
+      "nombre": "Salsa boloñesa",
+      "desc": "Hoy vamos a preparar una salsa boloñesa con su receta más tradicional . Con su chorrete de leche, de vino tinto, sus especias… Lo más importante, para preparar esta salsa es la carne picada.",
+      "subcategoria": "Italia",
+      "img": "img/paises/italia4.jpg",
+      "cantidad": 1
+    }
+
+    
+  ]
+  

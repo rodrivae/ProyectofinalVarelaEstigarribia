@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "nombre": "FAJITAS DE MAÍZ CON GUACAMOLE, HORTALIZAS Y TOFU",
+      "desc": "Al hablar de comida mexicana a todo el mundo le viene a la cabeza las fajitas. Fáciles de preparar y compartir son ideales para cenas o comidas en familia y con amigos.",
+      "subcategoria": "pachorra",
+      "img": "https://www.elmueble.com/medio/2020/01/17/fajitas-con-hortalizas-453260_e2584792_1000x1181.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "CROQUETAS DE BERENJENA Y BRIE",
+      "desc": "En más de un matrimonio ha habido crisis familiar al intentar averiguar qué madre o abuela cocina las mejores croquetas.",
+      "subcategoria": "pachorra",
+      "img": "https://www.elmueble.com/medio/2020/01/17/croquetas-de-berenjena-y-brie-501274_924f01e4_1000x1399.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "SÁNDWICH DE POLLO CON TOMATES Y CANÓNIGOS",
+      "desc": "Comer pollo asado puede resultar aburrido a no ser que te prepares este delicioso bocadillo que además de ser muy apetitoso es saludables y muy fácil de preparar",
+      "subcategoria": "happyfood",
+      "img": "https://www.elmueble.com/medio/2020/01/17/sandwichs-de-pollo-378474_2d04bfd5_1000x1182.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "PIZZA EXPRÉS DE PAN DE MOLDE",
+      "desc": "Si hoy toca cena en el sofá y no te apetece cocinar demasiado, no hace falta que recurras a la comida precocinada. Prepara esta pizza y tendrás una cena rica y saludable en pispás",
+      "subcategoria": "happyfood",
+      "img": "https://www.elmueble.com/medio/2020/01/17/pizza-expres-477072_b1665f8e_1000x1405.jpg",
+      "cantidad": 1
+    }
+
+    
+  ]

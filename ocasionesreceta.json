@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "nombre": "Pollo strogonoff",
+      "desc": "Receta de pollo strogonoff, hecho con setas, aceitunas, salsa de tomate, crema de leche, cebolla y pimentón, fácil y rápido.",
+      "subcategoria": "cenaromantica",
+      "img": "https://www.wholesomelicious.com/wp-content/uploads/2016/03/Slow-Cooker-Chicken-Marsala-2-768x512.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Milhojas de cerdo ibérico con salsa de jamón",
+      "desc": "Milhojas de cerdo ibérico con salsa de jamón, una receta super facil con quien vas a quedar muy bien con tu enamorada.",
+      "subcategoria": "cenaromantica",
+      "img": "https://www.hogarmania.com/archivos/201712/6087-1-milhojas-de-cerdo-iberico-con-salsa-de-jamon-xl-668x400x80xX.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Pollo asado al limón",
+      "desc": "El pollo asado al limón es una de las recetas más clásicas para preparar el pollo al horno. ",
+      "subcategoria": "cumpleaños",
+      "img": "https://unareceta.com/wp-content/uploads/2018/01/receta-de-pollo-asado-al-limon.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Pollo Teriyaki",
+      "desc": "Son unas recetas de la cocina oriental, bastante fáciles y económicas, quedan muy sabrosas. Recomendadas para cuando se tiene invitados en casa.",
+      "subcategoria": "cumpleaños",
+      "img": "https://www.hola.com/imagenes/cocina/recetas/20210204183775/pollo-salsa-teriyaki/0-916-577/pollo-teriyaki-adobe-m.jpg",
+      "cantidad": 1
+    }
+    
+  ]

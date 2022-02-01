@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+margin-left: 80px;
+transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    
+}
+
+.icon__menu{
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(10px);
+}
+.icon__menu i{
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+}
+ul {
+    display: flex;
+    position: absolute;
+    padding: 100px;
+    top: 5%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    width: 20px;
+    height: 30px;
+    top: 0%;
+    padding:60px 50px 60px 50px;
+    
+    background-color: ##fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    margin: 20px 10px;
+    display: block;
+    border-radius: z50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid  transparent;
+    
+  }
+  
+  ul li a .icon {
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 0.1rem;
+    transition: .5s;
+    z-index: 200;
+  }
+  ul li a:hover {
+    border-radius: z50%;
+    
+    border: 3px solid ##fff;
+    
+  }
+  ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+    
+  }
+  
+  ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  ul li a:hover:before {
+    top: 0;
+  }
+  
+  ul li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+  ul li:nth-child(2) a:before{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  
+  
+.menu{
+    width: 50px;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(10px);
+    
+}
+
+.logomenu{
+  position: absolute;
+    display: block;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 500px;
+}
+.menu__side{
+    width: 80px;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 50%;
+    z-index: 300;
+    border-right: 30px solid black;
+    overflow-y: scroll;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    
+
+}
+/* ocultar scroll para chorme, safari y opera */
+.menu__side::-webkit-scrollbar{
+ display: none;
+
+}
+/* ocultar scroll para IE, Edge y Firefox */
+.menu__side{
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+}
+.opcionesmenu{
+    padding: 20px 30px;
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    font-size: 240%;
+}
+.opcionesmenu a{
+    color: rgba(204, 202, 204, 0.644);
+    cursor: default;
+    display: block;
+    position: relative;
+    transition: color 300ms;
+}
+.opcionesmenu a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.opcionesmenu .categoriasmenu{
+    text-decoration: none;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.opcionesmenu .categoriasmenu i{
+    text-decoration: none;
+    width: 20px;
+    margin-right: 20px;
+    cursor:pointer;
+    
+}
+.opcionesmenu .categoriasmenu h4{
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.seleccion{
+    color: whitesmoke;
+}
+.seleccion:before{
+  content: '';
+  width: 3px;
+  height: 80px;
+  background-color: green;
+  position: absolute;
+  top: 3%;
+  left: -30px;
+}
+
+
+.body_mover{
+  margin-left: 250px;
+}
+.menu_side_mover{
+  width: 250px;
+}
+
+
+
+
+
+.inicio{
+    width: 100%;
+    background-color: rgb(252, 150, 92);
+    margin: auto;
+   text-align: center;
+   padding-top: 60px;
+   padding-bottom: 30px;
+}
+
+.logoportada{
+ margin-top: 0;
+    width: 350px;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+    .tituloinicio{
+        margin-top: 1%;
+        margin-bottom: 2.5%;
+        text-align: center;
+    }
+    .botoninicio{
+        position: relative;
+        align-items: center;
+    }
+    .titulo{
+      font-size: 180%;
+      text-align: left;
+      margin-bottom: 2%;
+    }
+  
+    .recetasrecomendados{
+      display: grid;
+      
+      grid-template-columns: 350px 350px 350px 350px;
+      grid-template-rows: 300px;
+    }
+   
+    .imgrecetas{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .textoreceta{
+      font-size: 120%;
+      margin-top: 5%;
+      text-align: left;
+    }
+    .recomendado_uno{
+      background-color: rgb(211, 212, 212);
+      padding: 40px 40px 40px 40px;
+      margin: 1%;
+      
+      
+    }
+    .recomendado_dos{
+      background-color: rgb(211, 212, 212);
+      padding: 45px;
+      margin: 1%;
+      
+    }
+    .recomendado_tres{
+      background-color: rgb(211, 212, 212);
+      padding: 45px;
+      margin: 1%;
+      
+    }
+    .recomendado_cuatro{
+      background-color: rgb(211, 212, 212);
+      padding: 45px;
+      margin: 1%;
+      
+    }
+
+    .recomendados_canales{
+      background: lemonchiffon;
+      padding-bottom: 180px;
+    }
+    .titulocanales{
+      font-size: 200%;
+      text-align: center;
+      padding-top: 4%;
+      margin-bottom: 2%;
+    }
+    .recomendadoscanales{
+      margin-top: 10%;
+      display: grid;
+      
+      grid-template-columns: 350px 350px 350px 350px;
+      grid-template-rows: 300px;
+    }
+    .canal_uno{
+      background-color: whitesmoke;
+      padding: 20px;
+      border-radius: 15%;
+      margin: 2%;
+
+    }
+    .canal_dos{
+      background-color: whitesmoke;
+      padding: 20px;
+      border-radius: 15%;
+      margin: 2%;
+      
+    }
+    .canal_tres{
+      background-color: whitesmoke;
+      padding: 20px;
+      border-radius: 15%;
+      margin: 2%;
+      
+    }
+    .canal_cuatro{
+      background-color: whitesmoke;
+      padding: 20px;
+      border-radius: 15%;
+      margin: 2%;
+      
+    }
+
+    .img_categoria{
+      width: 260px;
+      -webkit-animation: scaledown .4s ease;
+      animation: scaledown .4s linear;
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    
+    .img_categoria:hover{
+      z-index: 100;
+      -webkit-animation: scaledown .4s ease;
+      animation: scale 0.4s linear;
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes scaledown{
+      0%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      100%{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        box-shadow: 100px;
+      }
+    }
+    
+    .categorias_recetas{
+      background-color: tomato;
+      padding-top: 50px;
+      padding-left: 210px;
+      padding-right: 100px;
+      display: grid;
+      grid-template-columns: 300px 300px 300px ;
+      grid-template-rows: 320px;
+    }
+    .categorias{
+      margin-left: auto;
+      margin-right: auto;
+      
+      padding: 65px;
+      background-color: transparent;
+    }
+
+.botonatras{
+  width:100%;
+  display: inline-block;
+  float: left;
+ background-color: #fb932a;
+  padding: 1px 0px 1px 0px;
+  
+
+
+}
+.flecha{
+  width: 35px;
+  padding: 5px;
+  background-color: gold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.logocategoria{
+  margin-top: 60px;
+  margin-bottom: 0px;
+    width: 250px;
+    float: center;
+    
+ margin-left: 0;
+ margin-right: 0;
+}
+.iniciocategoria{
+  width: 100%;
+    background-color: rgb(252, 150, 92);
+    margin: auto;
+   text-align: center;
+   padding-top: 0px;
+   padding-bottom: 2px;
+}
+.categorias_recetas_subcategorias{
+  background-color: tomato;
+  padding-top: 0px;
+  padding-left: 210px;
+  padding-right: 100px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px ;
+  grid-template-rows: 280px;
+}
+.subcategorias{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 15%;
+  padding: 65px;
+  background-color: transparent;
+}
+.categorias_recetas_subcategorias_clima{
+  background-color: tomato;
+  padding-top: 0px;
+  padding-left: 210px;
+  padding-right: 100px;
+  padding-bottom: 250px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px ;
+  grid-template-rows: 280px;
+}
+.categorias_recetas_subcategorias_doscategorias{
+  background-color: tomato;
+  padding-top: 0px;
+  padding-left: 210px;
+  padding-right: 100px;
+  padding-bottom: 250px;
+  display: grid;
+  grid-template-columns: 500px 500px  ;
+  grid-template-rows: 280px;
+}
+
+/* estilo de contenedor de recetas */
+#contenedor-recetas {
+    width: 100%;
+  
+    margin: 0px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.receta {
+  background-color: whitesmoke;
+  max-width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+p {
+  line-height: 1.8;
+}
+.contenedorReceta{
+  background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+select{
+    
+  margin: 0 100px 0px 0px;
+   padding: 10px;
+   display: block;
+   align-items: center;
+   text-align: center;
+   border: 1px solid rgb(3, 3, 3);
+}
+//* estilo modal favoritos */
+
+.recetaEnFavorito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.recetaEnFavorito:hover {
+  border-left: 1px solid rgb(182, 177, 177);
+}
+
+.boton-eliminar {
+  background-color: white;
+  color: red;
+  border: none;
+  font-size: 20px;
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+.boton-eliminar:focus {
+  outline: none;
+}
+.modal-contenedor {
+  background-color: palegoldenrod;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+}
+
+.modal-favorito {
+  position: relative;
+  background-color: white;
+  min-width: 500px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all .5s;
+}
+
+.modal-active .modal-favorito {
+  margin-top: 0;
+}
+
+.modal-favorito h3 {
+  color: rgb(225, 76, 65);
+  padding-bottom: 5px;
+}
+.modal-favorito #favoritoCerrar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: rgb(2, 1, 1);
+  border: none;
+  background-color: white;
+}
+.modal-favorito #cfavoritoCerrar:hover {
+  cursor: pointer;
+}
+.modal-favorito #favoritoCerrar:focus {
+  outline: none;
+}
+.modal-favorito .precioProducto {
+  padding-top: 10px;
+  
+}
+
+//* boton favorito *//
+#boton-favorito {
+  width: 120px;
+  border: none;
+  
+  font-size: 40px;
+  background-color: white;
+  
+  
+  transition: all .3s;
+}
+#boton-favorito:hover {
+  cursor: pointer;
+  color: rgb(32, 233, 5);
+  
+}
+#boton-favorito:focus {
+  outline: none;
+}
+.recetaEnFavorito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.recetaEnFavorito:hover {
+  border-left: 1px solid rgb(182, 177, 177);
+}
+
+    @media screen and (max-width: 760px) {
+      .body_mover{
+        margin-left: 0px;
+      }
+      .menu_side_mover{
+        width: 80px;
+        left: -80px;
+      }
+      
+    }

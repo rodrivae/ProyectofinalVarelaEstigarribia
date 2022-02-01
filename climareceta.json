@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "nombre": "Tortilla de papa con jamon y queso",
+      "desc": "La tortilla de patatas rellena de queso y jamon, es un pasito más, de la típica tortilla de patatas española. En este caso lleva un relleno de jamón york y queso, tipo de sandwich.",
+      "subcategoria": "Soleado",
+      "img": "https://www.cocinacaserayfacil.net/wp-content/uploads/2017/04/tortilla-de-patatas-rellena-de-jamon-y-queso.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Ensalada cesar",
+      "desc": "la ensalada César es una de las más conocidas en el mundo. No hay país que no elabore este tipo de ensaladas, siempre adaptándolo a sus costumbres y gustos gastronómicos.",
+      "subcategoria": "Soleado",
+      "img": "https://www.pequeocio.com/wp-content/uploads/elementor/thumbs/ensalada-cesar-pa2bqzxmkf4asmf8o4uwi6v4mlzgmzlgvknj2gduto.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Cebolla rellena de carne",
+      "desc": "Las cebollas rellenas de carne al horno posee ambas cualidades, además de ser bastante fácil de hacer. Para esta receta vamos a usar verduras y carne de pollo picada. Puedes incluso utilizar una pechuga de pollo entera y picarla en casa a cuchillo, o pedir que lo hagan en tu carnicería.",
+      "subcategoria": "Soleado",
+      "img": "https://1.bp.blogspot.com/-pWzmr50Qxes/XqKsMR4aUbI/AAAAAAAAO6E/YzWuk5mhBjcsPcvK3FtzBjgsgWV_CcPlQCLcBGAsYHQ/s1600/Cebolla-rellena-de-cordero-01.JPG",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Crema de brocoli",
+      "desc": "Consiente a tu familia con la crema de brócoli más tersa y cremosa con esta sencilla receta sin lácteos, ¡100% vegana!",
+      "subcategoria": "Lluvioso",
+      "img": "https://www.pequerecetas.com/wp-content/uploads/2009/11/crema-de-brocoli.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Carbonada de pollo",
+      "desc": "Nada mejor que festejar con una buena cazuela. La propuesta es animarse con una carbonada de pollo, simplificación de la fórmula original del plato, que se hace dentro de un gran zapallo.",
+      "subcategoria": "Bajocero",
+      "img": "https://www.clarin.com/img/2020/08/04/qiddUhsyJ_1256x620__2.jpg#1596572876277",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Boeuf Bourguignon",
+      "desc": "El boeuf bourguignon cocinado a fuego lento se puede acompañar con unas patatitas redondas cocidas incluso fritas, o bien con una ensalada",
+      "subcategoria": "Bajocero",
+      "img": "https://www.clarin.com/img/2020/07/06/WnqZ6w97z_1256x620__2.jpg#1594052144917",
+      "cantidad": 1
+    }
+
+    
+  ]
+  
